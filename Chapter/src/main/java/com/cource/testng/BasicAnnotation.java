@@ -9,6 +9,7 @@ public class BasicAnnotation {
     public void testCase1() {
         System.out.println("这是测试1");
     }
+    //@BerforMethod被注释的方法被运行后，每个测试方法。
     @BeforeMethod
     public void beforeMehod(){
             System.out.println();
